@@ -1,6 +1,5 @@
 # Professional-README-Generator
 
-[How to create a Professional README](./readme-guide.md) by NAB
 
 # Project Description:
 
@@ -41,3 +40,9 @@ THEN I am taken to the corresponding section of the README
 2. A sample README.md file for a project repository generated using your application.
 
 3. The URL of the GitHub repository.
+
+
+
+
+Made with ♥️
+** NAB **
