@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Nehailaa/Professional-README-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "markdown-it": "^12.3.2",
+    "markdown-js": "^0.0.4"
   }
 }
