@@ -1,4 +1,4 @@
-# Professional RAEDME Generator
+# Professional README Generator.
 
   ## Table of Contents
   - [Name](#userName)
@@ -9,36 +9,40 @@
   - [Languages](#languages)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Collaborators](#confirmCredits)
+  - [Collaborators](#credits)
+  - [License](#license)
   - [Additional Information](#additional-info)
 
   ## Name
-  Nehaila Ait Belouali
+  Nehaila
 
   ## GitHub Username
   nehailaa
 
   ## About Me
-  I am an aspiring Coding student.
+  I am an aspiring coding student.
 
   ## Motivation
-  Excel in Node and be able to build ohter projects.
+  To excel node and be able to build other complex projects.
 
   ## Description
-  Easilt creates README file.
+  It generates a README File.
 
   ## Languages
   JavaScript,ES6,Node
 
   ## Installation
-  Download the files via GitHub.
+  Please download the code in GitHub.
 
   ## Usage
-  By typing 'node app.js', you can easily run it.
+  Please run the code using node app.js
 
   ## Collaborators
-  false
+  undefined
+
+  ## License
+  MIT
 
   ## Additional Information
-  - GitHub Link: https://github.com/Nehailaa/Professional-README-Generator/tree/main
+  - GitHub Link: https://github.com/Nehailaa/Professional-README-Generator
   - Email: nehailakarmel@gmail.com
