@@ -16,19 +16,20 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   - [Name](#userName)
-  - [GitHub Name](#github)
+  - [GitHub Username](#github)
   - [About Me](#about)
   - [Motivation](#motivation)
   - [Description](#description)
+  - [Languages](#languages)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Collaborators](#credits)
+  - [Collaborators](#confirmCredits)
   - [Additional Information](#additional-info)
 
   ## Name
   ${data.userName}
 
-  ## GitHub Name
+  ## GitHub Username
   ${data.github}
 
   ## About Me
@@ -40,6 +41,9 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
+  ## Languages
+  ${data.languages}
+
   ## Installation
   ${data.installation}
 
@@ -47,7 +51,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Collaborators
-  ${data.credits}
+  ${data.confirmCredits}
 
   ## Additional Information
   - GitHub Link: ${data.link}

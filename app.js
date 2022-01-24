@@ -22,7 +22,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'gitub',
+        name: 'github',
         message: 'What is your GitHub username? (Required)',
         validate: githubInput => {
             if (githubInput) {
@@ -113,6 +113,12 @@ const questions = [
     },
     {
         type: 'checkbox',
+        name: 'languages',
+        message: 'What did you build this project with? (Check all that apply)',
+        choices: ['HTML', 'CSS', 'JavaScript', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+    },
+    {
+        type: 'checkbox',
         name: 'license',
         message: 'What license did you build this project with? (Check what apply(Required))',
         choices: ['MIT', 'ISC', 'MS-PL', 'LPPL-1.3C', 'APACHE', 'GPLv2', 'GPLv3', 'BSD 3-clause', 'Unlicense', 'BSD 2-clause', 'LGPLv3', 'Other'],
@@ -144,7 +150,7 @@ const questions = [
         }
     },
     {
-        type: 'confrim',
+        type: 'confirm',
         name: 'confirmCredits',
         message: 'Would you like to list your collaborators if any?',
     },
@@ -152,7 +158,7 @@ const questions = [
         type: 'input',
         name: 'credits',
         message: 'Please list your collaborators:',
-        when: ({confirmCredits}) => confirmCredits
+        when: ({ confirmCredits }) => confirmCredits
     },
 
 ];
@@ -160,19 +166,19 @@ const questions = [
 //  Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
-        if(err) throw err;
+        if (err) throw err;
         console.log('Great Job! README file is saved!')
     });
- };
+};
 
 //  Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(function(userAndProjectInfo) {
-        console.log(userAndProjectInfo)
-        writeToFile('README.md', generateMarkdown(userAndProjectInfo));
-    });
- };
+        .then(function (userAndProjectInfo) {
+            console.log(userAndProjectInfo)
+            writeToFile('README.md', generateMarkdown(userAndProjectInfo));
+        });
+};
 
 // Function call to initialize app
 init();
